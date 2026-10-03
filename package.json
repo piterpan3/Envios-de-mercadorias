@@ -1,0 +1,16 @@
+{
+  "name": "benga-envios",
+  "version": "1.0.0",
+  "description": "BENGA ENVIOS — transporte aéreo de mercadorias Angola ↔ Portugal (site + API, sem dependências)",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node test/api.test.js",
+    "test:e2e": "python3 test/e2e.py"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "license": "UNLICENSED",
+  "private": true
+}
